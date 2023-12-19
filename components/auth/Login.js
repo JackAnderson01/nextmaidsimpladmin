@@ -5,13 +5,11 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import axios from "axios";
-import {AppContext} from "../../context/context";
 
 
 const Login = () => {
 
 
-    const {isLoggedIn, setIsLoggedIn} = useContext(AppContext)
     const navigate = useRouter();
 
     const initialFormData = Object.freeze({
