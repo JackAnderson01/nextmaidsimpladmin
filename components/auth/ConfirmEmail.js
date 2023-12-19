@@ -4,7 +4,6 @@ import React, { useState } from 'react'
 import { FaArrowLeft } from "react-icons/fa";
 import { useRouter } from 'next/router';
 import Link from 'next/link';
-import Image from 'next/Image';
 
 const ConfirmEmail = () => {
 
@@ -31,7 +30,7 @@ const ConfirmEmail = () => {
             >
               {/* Image goes here */}
               {/* <img src="/logo.svg" alt="logo" className="w-36" /> */}
-              <Image src="/assets/loginlogo.svg" width="256" height="64" alt="Logo"/>
+              <img src="/assets/loginlogo.svg" alt="Logo"/>
             </Link>
 
 
